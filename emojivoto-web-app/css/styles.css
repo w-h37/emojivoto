@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,900');
 
 :root {
-  --buttonblue: #2F80ED;
+  --buttonblue: #af5cf8;
   --font-stack: 'Lato', 'Helvetica Neue', Helvetica, arial, sans-serif;
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -38,7 +38,6 @@ a {
 }
 
 .footer-text {
-  float: left;
   color: #999;
   font-size: .8em;
 }
