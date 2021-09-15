@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   annotations:
-    getambassador.io/rolloutId: 4aa78ad0-d0fe-428f-80ff-dc77c6be2ab8
+    getambassador.io/rolloutId: 6bc0644b-3d97-4961-94df-69ff25e66186
   creationTimestamp: null
   labels:
     app.kubernetes.io/name: web-app
@@ -66,7 +66,7 @@ spec:
           value: "80"
         - name: INDEX_BUNDLE
           value: dist/index_bundle.js
-        image: datawire/emojivoto-web-app:v12
+        image: datawire/emojivoto-web-app:v11
         imagePullPolicy: Always
         name: web-app
         ports:
